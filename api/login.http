@@ -1,0 +1,10 @@
+
+#Authorization(Login)
+
+POST http://localhost:8080/api/auth/local
+Content-Type: application/json
+
+{
+    "identifier": "sasitorn",
+    "password": "S21p@ssw0rd"
+}
